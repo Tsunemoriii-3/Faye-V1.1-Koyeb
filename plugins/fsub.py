@@ -99,7 +99,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False):
 
         buttons = [
             [
-                InlineKeyboardButton("𝗝𝗼𝗶𝗻 ͟͞𝙉𝙚𝙭𝙭𝙐𝙥™ </> 𝗦𝗵𝗼𝗽𝗽𝗶𝗲", url='https://t.me/+7wC1M87_a1oyZmM1')
+                InlineKeyboardButton("𝗝𝗼𝗶𝗻 ⚡️⚡️𝗦𝗼𝗻𝗶𝗰 𝗢𝘁𝗮𝗸𝘂𝘀⚡️⚡️", url='https://t.me/Sonic_Otakus')
             ],
             [
                 InlineKeyboardButton("𝗝𝗼𝗶𝗻 ⚡️⚡️𝗔𝗻𝗶𝗺𝗲 𝗙𝗹𝗶𝘅⚡️⚡️", url='https://t.me/Anime_Flix_Pro')
@@ -108,7 +108,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False):
                 InlineKeyboardButton("⚡️𝗦𝗲𝗻𝗱 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗼 𝗕𝗮𝗰𝗸𝘂𝗽⚡️", url=invite_link)
             ],
             [
-                InlineKeyboardButton("Try Again", url=file_id)
+                InlineKeyboardButton(">>> 𝗧𝗿𝘆 𝗔𝗴𝗮𝗶𝗻 <<<", url=file_id)
             ],
         ]
         
