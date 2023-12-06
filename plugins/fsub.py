@@ -105,7 +105,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False):
                 InlineKeyboardButton("𝗝𝗼𝗶𝗻 ⚡️⚡️𝗔𝗻𝗶𝗺𝗲 𝗙𝗹𝗶𝘅⚡️⚡️", url='https://t.me/Anime_Flix_Pro')
             ],
             [
-                InlineKeyboardButton("⚡️𝗝𝗼𝗶𝗻 𝗧𝗼𝗸𝘆𝗼 𝗚𝗵𝗼𝘂𝗹⚡️", url=invite_link)
+                InlineKeyboardButton("⚡️𝗝𝗼𝗶𝗻 𝗦𝗽𝘆 𝗫 𝗙𝗮𝗺𝗶𝗹𝘆⚡️", url=invite_link)
             ],
             [
                 InlineKeyboardButton(">>> 𝗧𝗿𝘆 𝗔𝗴𝗮𝗶𝗻 <<<", url=file_id)
