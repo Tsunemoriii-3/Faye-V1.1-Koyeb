@@ -102,7 +102,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False):
                 InlineKeyboardButton("𝗝𝗼𝗶𝗻 ⚡️⚡️𝗦𝗼𝗻𝗶𝗰 𝗢𝘁𝗮𝗸𝘂𝘀⚡️⚡️", url='https://t.me/Sonic_Otakus')
             ],
             [
-                InlineKeyboardButton("⚡️𝗦𝗲𝗻𝗱 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗼 [ 𝗕𝗮𝗰𝗸𝘂𝗽 ] ⚡️", url=invite_link)
+                InlineKeyboardButton("⚡️𝗝𝗼𝗶𝗻 𝗦𝗼𝗹𝗼 𝗟𝗲𝘃𝗲𝗹𝗶𝗻𝗴⚡️", url=invite_link)
             ],
             [
                 InlineKeyboardButton(">>> 𝗧𝗿𝘆 𝗔𝗴𝗮𝗶𝗻 <<<", url=file_id)
