@@ -95,14 +95,17 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False):
         else:
             return True
     except UserNotParticipant:
-        text="""× 𝗬𝗼𝘂 𝗠𝘂𝘀𝘁 𝗦𝘁𝗮𝗿𝘁 𝗧𝗵𝗲 𝗕𝗼𝘁 𝗙𝗿𝗼𝗺 𝟭𝘀𝘁 𝗟𝗶𝗻𝗸 × \n» 𝗦𝗲𝗻𝗱 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗼 𝗕𝗮𝗰𝗸𝘂𝗽 𝗜𝗻 𝟮𝗻𝗱 𝗟𝗶𝗻𝗸, 𝗧𝗵𝗲𝗻 𝗖𝗹𝗶𝗰𝗸 🍁 >>> 𝗧𝗿𝘆 𝗔𝗴𝗮𝗶𝗻 <<< 🍁 𝗕𝘂𝘁𝘁𝗼𝗻 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱."""
+        text="""× 𝗬𝗼𝘂 𝗠𝘂𝘀𝘁 𝗦𝘁𝗮𝗿𝘁 𝗧𝗵𝗲 𝗟𝘂𝗰𝗶𝗱 𝗕𝗼𝘁 𝗙𝗿𝗼𝗺 𝟭𝘀𝘁 𝗕𝘂𝘁𝘁𝗼𝗻 × \n» 𝗦𝗲𝗻𝗱 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗼 𝗕𝗮𝗰𝗸𝘂𝗽 𝗜𝗻 𝟮𝗻𝗱 𝗔𝗻𝗱 𝟯𝗿𝗱 𝗕𝘂𝘁𝘁𝗼𝗻. \n» 𝗧𝗵𝗲𝗻 𝗖𝗹𝗶𝗰𝗸 🍁 >>> 𝗧𝗿𝘆 𝗔𝗴𝗮𝗶𝗻 <<< 🍁 𝗕𝘂𝘁𝘁𝗼𝗻 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱."""
 
         buttons = [
             [
                 InlineKeyboardButton("𝗦𝘁𝗮𝗿𝘁 𝗧𝗵𝗲 ⚡️𝗟𝘂𝗰𝗶𝗱 𝗗𝗿𝗲𝗮𝗺 𝗕𝗼𝘁⚡️", url='https://t.me/luciddreams_bot?start=Ralex10')
             ],
             [
-                InlineKeyboardButton("⚡️𝗦𝗲𝗻𝗱 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗼 𝗕𝗮𝗰𝗸𝘂𝗽 𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡️", url=invite_link)
+                InlineKeyboardButton("⚡️𝗦𝗲𝗻𝗱 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗼 𝗕𝗮𝗰𝗸𝘂𝗽 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 #𝟭⚡️", url='https://t.me/+tj8GX_tyCE5lMzZl')
+            ],
+            [
+                InlineKeyboardButton("⚡️𝗦𝗲𝗻𝗱 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗼 𝗕𝗮𝗰𝗸𝘂𝗽 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 #𝟮⚡️", url=invite_link)
             ],
             [
                 InlineKeyboardButton(">>> 𝗧𝗿𝘆 𝗔𝗴𝗮𝗶𝗻 <<<", url=file_id)
