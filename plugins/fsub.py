@@ -95,7 +95,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False):
         else:
             return True
     except UserNotParticipant:
-        text="""» 𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗙𝗿𝗼𝗺 𝟭𝘀𝘁, 𝟮𝗻𝗱 𝗔𝗻𝗱 𝟯𝗿𝗱 𝗕𝘂𝘁𝘁𝗼𝗻. \n\n» 𝗦𝗲𝗻𝗱 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗼 𝗕𝗮𝗰𝗸𝘂𝗽 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗙𝗿𝗼𝗺 𝟰𝘁𝗵 𝗕𝘂𝘁𝘁𝗼𝗻. \n\n» 𝗔𝗳𝘁𝗲𝗿 𝗝𝗼𝗶𝗻𝗶𝗻𝗴 𝗔𝗹𝗹 𝗧𝗵𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝘀, \n\n𝗖𝗹𝗶𝗰𝗸 🍁 >>> 𝗧𝗿𝘆 𝗔𝗴𝗮𝗶𝗻 <<< 🍁 𝗕𝘂𝘁𝘁𝗼𝗻 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱."""
+        text="""» 𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗙𝗿𝗼𝗺 𝟭𝘀𝘁 𝗔𝗻𝗱 𝟮𝗻𝗱 𝗕𝘂𝘁𝘁𝗼𝗻. \n\n» 𝗦𝘁𝗮𝗿𝘁 𝗟𝘂𝗰𝗶𝗱 𝗗𝗿𝗲𝗮𝗺 𝗕𝗼𝘁 𝗙𝗿𝗼𝗺 𝟯𝗿𝗱 𝗕𝘂𝘁𝘁𝗼𝗻. \n\n» 𝗔𝗳𝘁𝗲𝗿 𝗝𝗼𝗶𝗻𝗶𝗻𝗴 𝗔𝗹𝗹 𝗧𝗵𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝘀, \n\n𝗖𝗹𝗶𝗰𝗸 🍁 >>> 𝗧𝗿𝘆 𝗔𝗴𝗮𝗶𝗻 <<< 🍁 𝗕𝘂𝘁𝘁𝗼𝗻 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱."""
 
         buttons = [
             [
@@ -105,7 +105,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False):
                 InlineKeyboardButton("𝗝𝗼𝗶𝗻 ⚡️⚡️𝗔𝗻𝗶𝗺𝗲 𝗙𝗹𝗶𝘅⚡️⚡️", url='https://t.me/Anime_Flix_Pro')
             ],
             [
-                InlineKeyboardButton("𝗝𝗼𝗶𝗻 ⚡️⚡️𝗠𝗮𝗴𝗻𝘂𝗺 𝗠𝗼𝘃𝗶𝗲𝘀⚡️⚡️", url='https://t.me/Magnum_Movies')
+                InlineKeyboardButton("𝗦𝘁𝗮𝗿𝘁 ⚡️⚡️𝗟𝘂𝗰𝗶𝗱 𝗗𝗿𝗲𝗮𝗺 𝗕𝗼𝘁⚡️⚡️", url='https://t.me/luciddreams_bot?start=alexey65')
             ],
             [
                 InlineKeyboardButton("⚡️𝗦𝗲𝗻𝗱 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗼 𝗕𝗮𝗰𝗸𝘂𝗽⚡️", url=invite_link)
