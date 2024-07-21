@@ -95,14 +95,17 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False):
         else:
             return True
     except UserNotParticipant:
-        text="""» 𝟭. 𝗬𝗼𝘂 𝗠𝘂𝘀𝘁 𝗦𝗲𝘁 𝗬𝗼𝘂𝗿 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 𝗙𝗿𝗼𝗺 𝗬𝗼𝘂𝗿 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗣𝗿𝗼𝗳𝗶𝗹𝗲 𝗦𝗲𝘁𝘁𝗶𝗻𝗴𝘀. \n\n» 𝟮. 𝗦𝘁𝗮𝗿𝘁 𝗧𝗵𝗲 𝗕𝗼𝘁 𝗔𝗻𝗱 𝗖𝗹𝗮𝗶𝗺 𝗬𝗼𝘂𝗿 𝗙𝗿𝗲𝗲 $𝗗𝗢𝗚𝗦 (𝗙𝗿𝗲𝗲 𝗠𝗼𝗻𝗲𝘆) \n\n» 𝟯. 𝗦𝗲𝗻𝗱 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗼 𝗕𝗮𝗰𝗸𝘂𝗽 𝗖𝗵𝗮𝗻𝗻𝗲𝗹. \n\n𝗧𝗵𝗲𝗻 𝗖𝗹𝗶𝗰𝗸 🍁 >>> 𝗧𝗿𝘆 𝗔𝗴𝗮𝗶𝗻 <<< 🍁 𝗕𝘂𝘁𝘁𝗼𝗻 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱."""
+        text="""» 𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗙𝗿𝗼𝗺 𝟭𝘀𝘁, 𝟮𝗻𝗱 𝗔𝗻𝗱 𝟯𝗿𝗱 𝗕𝘂𝘁𝘁𝗼𝗻. \n\n» 𝗦𝗲𝗻𝗱 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗼 𝗕𝗮𝗰𝗸𝘂𝗽 𝗙𝗿𝗼𝗺 𝟰𝘁𝗵 𝗕𝘂𝘁𝘁𝗼𝗻. \n\n» 𝗔𝗳𝘁𝗲𝗿 𝗝𝗼𝗶𝗻𝗶𝗻𝗴 𝗔𝗹𝗹 𝗧𝗵𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝘀, \n\n𝗖𝗹𝗶𝗰𝗸 🍁 >>> 𝗧𝗿𝘆 𝗔𝗴𝗮𝗶𝗻 <<< 🍁 𝗕𝘂𝘁𝘁𝗼𝗻 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱."""
 
         buttons = [
             [
-                InlineKeyboardButton("⚡️𝗦𝗲𝘁 𝗬𝗼𝘂𝗿 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲⚡️", url='tg://settings')
+                InlineKeyboardButton("𝗝𝗼𝗶𝗻 ⚡️⚡️𝗦𝗼𝗻𝗶𝗰 𝗢𝘁𝗮𝗸𝘂𝘀⚡️⚡️", url='https://t.me/Sonic_Otakus')
             ],
             [
-                InlineKeyboardButton("⚡️𝗦𝘁𝗮𝗿𝘁 𝗔𝗻𝗱 𝗖𝗹𝗮𝗶𝗺 𝗬𝗼𝘂𝗿 $𝗗𝗢𝗚𝗦⚡️", url='https://t.me/dogshouse_bot/join?startapp=_S6IuyPlQ4CDZbtfGcQJww')
+                InlineKeyboardButton("𝗝𝗼𝗶𝗻 ⚡️⚡️𝗔𝗻𝗶𝗺𝗲 𝗙𝗹𝗶𝘅⚡️⚡️", url='https://t.me/Anime_Flix_Pro')
+            ],
+            [
+                InlineKeyboardButton("𝗝𝗼𝗶𝗻 ⚡️⚡️𝗠𝗮𝗴𝗻𝘂𝗺 𝗠𝗼𝘃𝗶𝗲𝘀⚡️⚡️", url='https://t.me/Magnum_Movies')
             ],
             [
                 InlineKeyboardButton("⚡️𝗦𝗲𝗻𝗱 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗼 𝗕𝗮𝗰𝗸𝘂𝗽⚡️", url=invite_link)
