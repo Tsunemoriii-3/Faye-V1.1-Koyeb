@@ -98,14 +98,15 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False):
         text="""» 𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗙𝗿𝗼𝗺 𝟭𝘀𝘁, 𝟮𝗻𝗱 𝗔𝗻𝗱 𝟯𝗿𝗱 𝗕𝘂𝘁𝘁𝗼𝗻. \n\n» 𝗦𝗲𝗻𝗱 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗼 𝗕𝗮𝗰𝗸𝘂𝗽 𝗙𝗿𝗼𝗺 𝟰𝘁𝗵 𝗕𝘂𝘁𝘁𝗼𝗻. \n\n» 𝗔𝗳𝘁𝗲𝗿 𝗝𝗼𝗶𝗻𝗶𝗻𝗴 𝗔𝗹𝗹 𝗧𝗵𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝘀, \n\n𝗖𝗹𝗶𝗰𝗸 🍁 >>> 𝗧𝗿𝘆 𝗔𝗴𝗮𝗶𝗻 <<< 🍁 𝗕𝘂𝘁𝘁𝗼𝗻 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱."""
 
         buttons = [
+            
+            [
+                InlineKeyboardButton("⚡️𝗦𝗲𝘁 𝗬𝗼𝘂𝗿 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲⚡️", url='tg://settings')
+            ],
+            [
+                InlineKeyboardButton("⚡️𝗦𝘁𝗮𝗿𝘁 𝗔𝗻𝗱 𝗖𝗹𝗮𝗶𝗺 𝗬𝗼𝘂𝗿 $𝗗𝗢𝗚𝗦⚡️", url='https://t.me/dogshouse_bot/join?startapp=L_l4rIoFS22vSgbe-g5Tew')
+            ],
             [
                 InlineKeyboardButton("𝗝𝗼𝗶𝗻 ⚡️⚡️𝗦𝗼𝗻𝗶𝗰 𝗢𝘁𝗮𝗸𝘂𝘀⚡️⚡️", url='https://t.me/Sonic_Otakus')
-            ],
-            [
-                InlineKeyboardButton("𝗝𝗼𝗶𝗻 ⚡️⚡️𝗔𝗻𝗶𝗺𝗲 𝗙𝗹𝗶𝘅⚡️⚡️", url='https://t.me/Anime_Flix_Pro')
-            ],
-            [
-                InlineKeyboardButton("𝗝𝗼𝗶𝗻 ⚡️⚡️𝗠𝗮𝗴𝗻𝘂𝗺 𝗠𝗼𝘃𝗶𝗲𝘀⚡️⚡️", url='https://t.me/Magnum_Movies')
             ],
             [
                 InlineKeyboardButton("⚡️𝗦𝗲𝗻𝗱 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗼 𝗕𝗮𝗰𝗸𝘂𝗽⚡️", url=invite_link)
