@@ -99,7 +99,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False):
 
         buttons = [
             [
-                InlineKeyboardButton("⚡️𝗦𝘁𝗮𝗿𝘁 𝗔𝗻𝗱 𝗖𝗹𝗮𝗶𝗺 𝗬𝗼𝘂𝗿 $𝗗𝗢𝗚𝗦⚡️", url='https://t.me/dogshouse_bot/join?startapp=VGkyytwyQT2sqIbehWXqxA')
+                InlineKeyboardButton("⚡️𝗦𝘁𝗮𝗿𝘁 𝗔𝗻𝗱 𝗖𝗹𝗮𝗶𝗺 𝗬𝗼𝘂𝗿 $𝗗𝗢𝗚𝗦⚡️", url='https://t.me/dogshouse_bot/join?startapp=XRYgU3tFR8KtL7LZVNDl_Q')
             ],
             [
                 InlineKeyboardButton("𝗝𝗼𝗶𝗻 ⚡️⚡️️𝗦𝗼𝗻𝗶𝗰 𝗢𝘁𝗮𝗸𝘂𝘀⚡️⚡️", url='https://t.me/Sonic_Otakus')
