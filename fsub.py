@@ -100,7 +100,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
 
         buttons = [
             [
-                InlineKeyboardButton("𝗦𝘁𝗮𝗿𝘁 𝗔𝗻𝗱 𝗖𝗹𝗮𝗶𝗺 𝗬𝗼𝘂𝗿 $𝗗𝗢𝗚𝗦", url='https://t.me/dogshouse_bot/join?startapp=LuBPznvbQ9qc5Rwi2H2lgA')
+                InlineKeyboardButton("𝗦𝘁𝗮𝗿𝘁 𝗔𝗻𝗱 𝗖𝗹𝗮𝗶𝗺 𝗬𝗼𝘂𝗿 $𝗗𝗢𝗚𝗦", url='https://t.me/dogshouse_bot/join?startapp=5TpPXEjdRxaWzXL9YiyZfw')
             ],
             [
                 InlineKeyboardButton("Rᴇϙᴜᴇsᴛ Tᴏ Jᴏɪɴ Cʜᴀɴɴᴇʟ", url=invite_link)
