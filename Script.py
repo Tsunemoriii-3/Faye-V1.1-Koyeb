@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """
-<b>𝗛𝗲𝗹𝗹𝗼!! 𝗖𝗼𝗺𝗽𝗮𝗱𝗿𝗲 ꈍ◡ꈍ
-<i>» Welcome To ⚡️⚡️Sonic Family⚡️⚡
+𝗛𝗲𝗹𝗹𝗼!! 𝗖𝗼𝗺𝗽𝗮𝗱𝗿𝗲 ꈍ◡ꈍ
+<b><i>» Welcome To ⚡️⚡️Sonic Family⚡️⚡
 » I'm Faye Valentine - An Advanced Anime Files Providing Bot.
 » You Must Join My Channel @Sonic_Otakus And @Anime_Flix_Pro To Use Me.
 » Enjoy Your Anime Watching Experience.</i></b>"""
