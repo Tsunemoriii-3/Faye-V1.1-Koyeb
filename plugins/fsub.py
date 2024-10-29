@@ -108,7 +108,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False):
                 InlineKeyboardButton("𝗝𝗼𝗶𝗻 ⚡️⚡️𝗦𝘁𝗮𝗿𝘁 - 𝗠𝗔𝗝𝗢𝗥⚡️⚡️", url='https://t.me/major/start?startapp=1446111611')
             ],
             [
-                InlineKeyboardButton("⚡️𝗦𝗲𝗻𝗱 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗼 𝗕𝗮𝗰𝗸𝘂𝗽⚡️", url=invite_link)
+                InlineKeyboardButton("⚡️𝗝𝗼𝗶𝗻 𝗦𝘄𝗼𝗿𝗱 𝗔𝗿𝘁 𝗢𝗻𝗹𝗶𝗻𝗲⚡️", url=invite_link)
             ],
             [
                 InlineKeyboardButton(">>> 𝗧𝗿𝘆 𝗔𝗴𝗮𝗶𝗻 <<<", url=file_id)
