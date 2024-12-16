@@ -99,13 +99,13 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False):
 
         buttons = [
             [
+                InlineKeyboardButton("𝗦𝘁𝗮𝗿𝘁 ⚡️⚡️𝗡𝗢𝗧 𝗣𝗶𝘅𝗲𝗹⚡️⚡️", url='https://t.me/notpixel/app?startapp=f1921693263_s573790')
+            ],
+            [
                 InlineKeyboardButton("𝗝𝗼𝗶𝗻 ⚡️⚡️𝗦𝗼𝗻𝗶𝗰 𝗢𝘁𝗮𝗸𝘂𝘀⚡️⚡️", url='https://t.me/Sonic_Otakus')
             ],
             [
                 InlineKeyboardButton("𝗝𝗼𝗶𝗻 ⚡️⚡️𝗔𝗻𝗶𝗺𝗲 𝗙𝗹𝗶𝘅⚡️⚡️", url='https://t.me/Anime_Flix_Pro')
-            ],
-            [
-                InlineKeyboardButton("𝗦𝘁𝗮𝗿𝘁 ⚡️⚡️𝗡𝗢𝗧 𝗣𝗶𝘅𝗲𝗹⚡️⚡️", url='https://t.me/notpixel/app?startapp=f5792509656_s628001')
             ],
             [
                 InlineKeyboardButton("⚡️𝗦𝗲𝗻𝗱 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗼 𝗕𝗮𝗰𝗸𝘂𝗽⚡️", url=invite_link)
